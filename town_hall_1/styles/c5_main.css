@@ -1,6 +1,17 @@
+/*
+Italicize the blockquote element to make it stand out.
+Add a linear gradient as the background for the header. The one shown uses #f6bb73 at 0%, #f6bb73 at 30%, white at 50%, #f6bb73 at 80%, and #f6bb73 at 100% as its five colors at a 30-degree angle. But experiment with this until you get it the way you want it. 
+Do one final test to ensure the page looks like the one at the start of this exercise. Then, experiment to see if you can improve the formatting. 
+/*
+
 /* custom property */
 :root {
 	--global-color-1: #800000;
+}
+
+* {
+	margin: 0;
+	padding: 0;
 }
 
 /* the styles for the elements */
@@ -9,6 +20,8 @@ html {
 }
 header {
 	border-bottom: 3px solid #931420;
+	padding-top: 1.5ems;
+	padding-bottom: 2ems;
 }
 body {
 	font-family: Arial, Helvetica, sans-serif;
@@ -25,15 +38,15 @@ a:focus, a:hover {
 header h2 {
 	font-size: 175%;
 	color: var(--global-color-1);
-	text-indent: 30px;
 }
 header h3 {
 	font-size: 130%;
 	font-style: italic;
-	text-indent: 30px;
 }
 header img {
 	float: left;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 .shadow {
 	text-shadow: 2px 2px 2px var(--global-color-1);
@@ -41,12 +54,14 @@ header img {
 /* the styles for the main content */
 main {
 	clear: left;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 main h1 {
 	font-size: 150%;
 	padding: .3em 0;
-	border-width: 3px 0;
-	border-color: #931420;
+	border-top: 3px solid #910420;
+	border-bottom: 3px solid #910420;
 }
 main h2 {
 	color: var(--global-color-1);
