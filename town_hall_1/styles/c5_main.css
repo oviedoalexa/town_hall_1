@@ -1,5 +1,4 @@
 /*
-Italicize the blockquote element to make it stand out.
 Add a linear gradient as the background for the header. The one shown uses #f6bb73 at 0%, #f6bb73 at 30%, white at 50%, #f6bb73 at 80%, and #f6bb73 at 100% as its five colors at a 30-degree angle. But experiment with this until you get it the way you want it. 
 Do one final test to ensure the page looks like the one at the start of this exercise. Then, experiment to see if you can improve the formatting. 
 /*
@@ -22,6 +21,7 @@ header {
 	border-bottom: 3px solid #931420;
 	padding-top: 1.5ems;
 	padding-bottom: 2ems;
+	background-image: linear-gradient(30deg, #f6bb73 0%, #f6bb73 0%, white 50%);
 }
 body {
 	font-family: Arial, Helvetica, sans-serif;
