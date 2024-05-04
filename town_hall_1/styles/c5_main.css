@@ -4,12 +4,19 @@
 }
 
 /* the styles for the elements */
+html {
+	background-color: white;
+}
+header {
+	border-bottom: 3px solid #931420;
+}
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
 	width: 600px;
 	margin: 0 auto;
 	border: 3px solid #931420;
+	background-color: #fffded;
 }
 a:focus, a:hover {
 	font-style: italic;
@@ -38,6 +45,8 @@ main {
 main h1 {
 	font-size: 150%;
 	padding: .3em 0;
+	border-width: 3px 0;
+	border-color: #931420;
 }
 main h2 {
 	color: var(--global-color-1);
@@ -69,4 +78,6 @@ main li {
 footer p {
 	text-align: center;
 	padding: 1em 0;
+	background-color: #931420;
+	color: white;
 }
